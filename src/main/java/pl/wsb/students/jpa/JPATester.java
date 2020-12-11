@@ -9,6 +9,7 @@ import java.util.List;
 
 public class JPATester {
     private static final String PERSISTENCE_UNIT_NAME = "manager";
+
     public static void createNewEntity() {
         EntityManagerFactory factory = Persistence.createEntityManagerFactory(PERSISTENCE_UNIT_NAME);
         EntityManager em = factory.createEntityManager();

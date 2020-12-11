@@ -1,5 +1,6 @@
 package pl.wsb.students.controller;
 
+import pl.wsb.students.jpa.JPATester;
 import pl.wsb.students.model.Customer;
 import pl.wsb.students.model.Movie;
 import pl.wsb.students.model.Transaction;
@@ -59,6 +60,16 @@ public class AppController {
                         System.out.printf("Movie title: %s, stock: %s %n", movie.getTitle(), movie.getStock());
                     }   //for
                 }
+        );
+        menu.addMenuItem(
+                "4",
+                "JPA test - new movie person",
+                JPATester::createNewEntity
+        );
+        menu.addMenuItem(
+                "5",
+                "JPA test - list movie persons",
+                JPATester::listEntities
         );
         menu.addMenuItem(
                 "9",

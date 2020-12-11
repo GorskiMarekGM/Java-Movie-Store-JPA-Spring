@@ -5,7 +5,9 @@ pl\wsb\students\view\MenuItem.class
 pl\wsb\students\controller\AppController.class
 pl\wsb\students\model\MoviePerson.class
 pl\wsb\students\view\Menu.class
+pl\wsb\students\jpa\JPATester.class
 pl\wsb\students\model\DVDMovie.class
+pl\wsb\students\jpa\MoviePerson.class
 pl\wsb\students\model\Director.class
 pl\wsb\students\model\Actor.class
 pl\wsb\students\model\BluRayMovie.class
