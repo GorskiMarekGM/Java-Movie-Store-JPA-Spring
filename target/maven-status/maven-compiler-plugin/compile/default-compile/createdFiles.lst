@@ -1,0 +1,14 @@
+pl\wsb\students\model\Transaction.class
+pl\wsb\students\model\Movie.class
+pl\wsb\students\service\StoreManager.class
+pl\wsb\students\view\MenuItem.class
+pl\wsb\students\controller\AppController.class
+pl\wsb\students\model\MoviePerson.class
+pl\wsb\students\view\Menu.class
+pl\wsb\students\model\DVDMovie.class
+pl\wsb\students\model\Director.class
+pl\wsb\students\model\Actor.class
+pl\wsb\students\model\BluRayMovie.class
+pl\wsb\students\Main.class
+pl\wsb\students\model\Customer.class
+pl\wsb\students\model\enums\EMovieGenre.class

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/movie-store-console-app-src-second-part.iml" filepath="$PROJECT_DIR$/movie-store-console-app-src-second-part.iml" />
+      <module fileurl="file://$PROJECT_DIR$/introduction-app.iml" filepath="$PROJECT_DIR$/introduction-app.iml" />
     </modules>
   </component>
 </project>
