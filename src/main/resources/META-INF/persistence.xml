@@ -15,6 +15,15 @@
                       value="jdbc:mysql://localhost:3306/movie_store?useLegacyDatetimeCode=false&amp;serverTimezone=CET" />
             <property name="hibernate.dialect"
                       value="org.hibernate.dialect.MySQL8Dialect" />
+
+<!--            create/drop/update
+validate: validate the schema, makes no changes to the database.
+update: update the schema.
+create: creates the schema, destroying previous data.
+create-drop: drop the schema when the SessionFactory is closed explicitly, typically when the application is stopped.
+none: does nothing with the schema, makes no changes to the database
+-->
+
             <property name="hibernate.hbm2ddl.auto" value="update" />
             <property name="hibernate.show_sql" value="true" />
         </properties>
